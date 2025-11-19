@@ -1,9 +1,9 @@
 # 03_VersionamentoPalavras
- - Neste versionamento do jogo palavras, AlphabetDataDrawer.cs foi atualizados porque ao ser iniciado está
- - manhã, continha NullReferenceException que aparecia no Console, porque
- - Uma das suas 4 ReorderableLists (plainList, normalList, highlightedList ou wrongList) ainda está null quando o OnInspectorGUI() roda.
- - Isso acontece porque no OnEnable() você está chamando o CreateList() sem passar por referência (ou com a assinatura errada),
- - então o valor que você cria dentro do método não volta para o campo da classe.
+ - Neste versionamento do jogo palavras, AlphabetDataDrawer.cs foi atualizado porque ao ser iniciado está
+ - manhã, continha " NullReferenceException " que aparecia no Console, porque
+ - uma das suas 4 ReorderableLists (plainList, normalList, highlightedList ou wrongList) ainda estava null quando o OnInspectorGUI() rodava.
+ - Isso aconteceu porque no OnEnable() eu está chamando o CreateList() sem passar por referência (ou com a assinatura errada),
+ - então o valor que eu criava dentro do método não voltava para o campo da classe.
 
 
 # CÓDIGO FONTE:
