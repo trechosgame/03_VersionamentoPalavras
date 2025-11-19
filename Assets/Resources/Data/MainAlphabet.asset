@@ -1,0 +1,226 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd937ef9e85f6cf45aa7e1c4bf3964df, type: 3}
+  m_Name: MainAlphabet
+  m_EditorClassIdentifier: 
+  AlphabetPlain:
+  - letter: A
+    image: {fileID: -8680797543115379092, guid: 8b7511fc8b1683b4db873a8a739d72c3, type: 3}
+  - letter: B
+    image: {fileID: 7425438597007568885, guid: a9a4729e5ac8e77449baaac995216933, type: 3}
+  - letter: C
+    image: {fileID: -606033477821260893, guid: 55a1e1a7664c8f746af74c577bc9cad8, type: 3}
+  - letter: D
+    image: {fileID: -962488092458481032, guid: d0093d695840ecc4e80e5593b498d422, type: 3}
+  - letter: E
+    image: {fileID: -2224474878120320963, guid: aa6382f6feae5e347a7103524cdc6c75, type: 3}
+  - letter: F
+    image: {fileID: -3687348052613884379, guid: 12598e8fece1dbd4fa10d70a2bc2ed04, type: 3}
+  - letter: G
+    image: {fileID: 9202060142997513903, guid: 6b1cf917b0e69d04bb511e67c6505565, type: 3}
+  - letter: H
+    image: {fileID: 2825150710382137115, guid: 50a8d96da8d297f47b2c54c1d2b0ef49, type: 3}
+  - letter: I
+    image: {fileID: -5465646382484160345, guid: 9e4fe15411d24d441b8fbe6b09805f5e, type: 3}
+  - letter: J
+    image: {fileID: -581286770295223724, guid: 9adf79fba6527bb42b8f1fbd6a937057, type: 3}
+  - letter: K
+    image: {fileID: 1646720447909147354, guid: 92dee2c40bda53b4aa4c0bda2847596c, type: 3}
+  - letter: L
+    image: {fileID: 3685002520340290964, guid: c8b3a7028c5d9074a98545696bb936d0, type: 3}
+  - letter: M
+    image: {fileID: 2811246782448359015, guid: 81e980025bedddc448595d16dd079f44, type: 3}
+  - letter: N
+    image: {fileID: 6059799596907309901, guid: 037b6b42b56ee6643a842a0dbee60a7b, type: 3}
+  - letter: O
+    image: {fileID: -1937887712669590171, guid: 76c31f5f4d64bd540ab90738312e96c7, type: 3}
+  - letter: P
+    image: {fileID: 450080780327903475, guid: 6446e110a1b158744acab0c7b1f44f54, type: 3}
+  - letter: Q
+    image: {fileID: -3859272008004827343, guid: c02bc13de9e09da4aa2496777ae8f690, type: 3}
+  - letter: R
+    image: {fileID: 5936356172364887011, guid: a006df69da93ad248ae9141873c05421, type: 3}
+  - letter: S
+    image: {fileID: -1182827721247122346, guid: dc87a193f68d9e648a7e4c3f9500f91c, type: 3}
+  - letter: T
+    image: {fileID: -1785357414251982577, guid: f7d60855786a85a43a96d3e634f99596, type: 3}
+  - letter: U
+    image: {fileID: 128889091407729587, guid: 4f607256a020f6e47aab184d7fdcd571, type: 3}
+  - letter: V
+    image: {fileID: 5871036504220654801, guid: b59a5cfb11d69d340af18d6084b748ac, type: 3}
+  - letter: W
+    image: {fileID: -243099114694839562, guid: 03601064a88afd24c9661c53469462bc, type: 3}
+  - letter: X
+    image: {fileID: 3959922740387019359, guid: 47fe20576d4b46d40a3fd319a38ce0ef, type: 3}
+  - letter: Y
+    image: {fileID: -7057060395142453220, guid: 795f8131c42d77c42a066dbda52e9e26, type: 3}
+  - letter: Z
+    image: {fileID: 4969131362173423726, guid: 064d33f0c68848c458d49d0091de8aa7, type: 3}
+  AlphabetNormal:
+  - letter: A
+    image: {fileID: -8680797543115379092, guid: c9ea2a7142069f64c99eb6065bc2eca8, type: 3}
+  - letter: B
+    image: {fileID: 7425438597007568885, guid: 45cc6b4f4c5a2e54da212a874bf31c56, type: 3}
+  - letter: C
+    image: {fileID: -606033477821260893, guid: bb14f5c796dd1414590bffa066cf5492, type: 3}
+  - letter: D
+    image: {fileID: -962488092458481032, guid: 650162ebd8c4bae42a679b3714bf1bfd, type: 3}
+  - letter: E
+    image: {fileID: -2224474878120320963, guid: d38289a9504e01f44bed9c3483b21be2, type: 3}
+  - letter: F
+    image: {fileID: -3687348052613884379, guid: bb009cb4e8480464994f786bf6045546, type: 3}
+  - letter: G
+    image: {fileID: 9202060142997513903, guid: a8e9a736d31a9e44f867adbeb2127209, type: 3}
+  - letter: H
+    image: {fileID: 2825150710382137115, guid: 8000c112c352e6a44b4b8bfb8f358aaa, type: 3}
+  - letter: I
+    image: {fileID: -5465646382484160345, guid: e2ba1ab356e63044180001c284c039f6, type: 3}
+  - letter: J
+    image: {fileID: -581286770295223724, guid: fbb7c95209cdd914788cab89a6ee22fd, type: 3}
+  - letter: K
+    image: {fileID: 1646720447909147354, guid: 9824c948f506aec49826fe205cb54c2e, type: 3}
+  - letter: L
+    image: {fileID: 3685002520340290964, guid: 08bf57902a224a841a138244fd2393cc, type: 3}
+  - letter: M
+    image: {fileID: 2811246782448359015, guid: cbbe2bd1e0d71a646bc285183e572647, type: 3}
+  - letter: N
+    image: {fileID: 6059799596907309901, guid: 3d0d7f87cd057854f975c7b4cea65370, type: 3}
+  - letter: O
+    image: {fileID: -1937887712669590171, guid: 8ed8ab6bcb65cc047bbc8c08529521a7, type: 3}
+  - letter: P
+    image: {fileID: 450080780327903475, guid: e59dc458c6bf35645a19420e1538c8a8, type: 3}
+  - letter: Q
+    image: {fileID: -3859272008004827343, guid: 12741e00d78ee2040bf651d35b7f926b, type: 3}
+  - letter: R
+    image: {fileID: 5936356172364887011, guid: c9adef806d838f147997fe90f6b7813d, type: 3}
+  - letter: S
+    image: {fileID: -1182827721247122346, guid: 4d8e61a8f915e7d4d858e48c742d99ca, type: 3}
+  - letter: T
+    image: {fileID: -1785357414251982577, guid: 3b175ced93f864442b7c3c759a0b3b47, type: 3}
+  - letter: U
+    image: {fileID: 128889091407729587, guid: c1737f0135f2ec24caf1a0ecbbf96031, type: 3}
+  - letter: V
+    image: {fileID: 5871036504220654801, guid: dfc3f50b99b554a44bf135356cd0e4e9, type: 3}
+  - letter: W
+    image: {fileID: -243099114694839562, guid: 9105aaa3ce955484baf44eaf59958f51, type: 3}
+  - letter: X
+    image: {fileID: 3959922740387019359, guid: 6d097e244b1dd954eafb1c5bde893a28, type: 3}
+  - letter: Y
+    image: {fileID: -7057060395142453220, guid: ab6186a99ce0c84418e073af3ecc1b92, type: 3}
+  - letter: Z
+    image: {fileID: 4969131362173423726, guid: ac0eb1b8e2a107647bc802370e0b5580, type: 3}
+  AlphabetHighlighted:
+  - letter: A
+    image: {fileID: -8680797543115379092, guid: 08d024cf13913db4db4f31426d2658a9, type: 3}
+  - letter: B
+    image: {fileID: 7425438597007568885, guid: b4725adc30cb88948add77ffe834fdc4, type: 3}
+  - letter: C
+    image: {fileID: -606033477821260893, guid: d34ee9fd55d563544b6a36d51de35b95, type: 3}
+  - letter: D
+    image: {fileID: -962488092458481032, guid: 780f351ab5eb937469d6dd9556a6b6ad, type: 3}
+  - letter: E
+    image: {fileID: -2224474878120320963, guid: f9a88ed6e668e9443b47e5cdcd7b1289, type: 3}
+  - letter: F
+    image: {fileID: -3687348052613884379, guid: b17923416e78deb4a879480a4f09e928, type: 3}
+  - letter: G
+    image: {fileID: 9202060142997513903, guid: 55382c1b3a46c794eb49fc251090f6dc, type: 3}
+  - letter: H
+    image: {fileID: 2825150710382137115, guid: 38c8d93163e1f31429b3d3efeaa4edb3, type: 3}
+  - letter: I
+    image: {fileID: -5465646382484160345, guid: 7b5011d7c7837174ea05976fbb9d523e, type: 3}
+  - letter: J
+    image: {fileID: -581286770295223724, guid: 95bbde1b60ca34b4a8cbf13c5d1312af, type: 3}
+  - letter: K
+    image: {fileID: 1646720447909147354, guid: 68f3ac3711afa1d419311284df9c737e, type: 3}
+  - letter: L
+    image: {fileID: 3685002520340290964, guid: 0d82eecb8f8a16f41a671a50fd7b2cb2, type: 3}
+  - letter: M
+    image: {fileID: 2811246782448359015, guid: cd8fef34768c2334c8e45d5c1a968ed1, type: 3}
+  - letter: N
+    image: {fileID: 6059799596907309901, guid: 333e6081979ba034d8a6571629dc2357, type: 3}
+  - letter: O
+    image: {fileID: -1937887712669590171, guid: 2701e3595d7bd9946aa5075b0af5a3a4, type: 3}
+  - letter: P
+    image: {fileID: 450080780327903475, guid: f71d06fb0bf7dc744b5e9adfe830812a, type: 3}
+  - letter: Q
+    image: {fileID: -3859272008004827343, guid: cfd2ea74927a54a4b9a5814e55285c84, type: 3}
+  - letter: R
+    image: {fileID: 5936356172364887011, guid: e04dc6dd9e645644f96d2107e6e6b949, type: 3}
+  - letter: S
+    image: {fileID: -1182827721247122346, guid: 36874e888d0e53d47a837fbcb6525085, type: 3}
+  - letter: T
+    image: {fileID: -1785357414251982577, guid: 931033ee72e294a47b06c37f0aabd5a1, type: 3}
+  - letter: U
+    image: {fileID: 128889091407729587, guid: f0cae45434af43c48a5fd367cedf9487, type: 3}
+  - letter: V
+    image: {fileID: 5871036504220654801, guid: b7039aa2f10a8a54abae02df1bab97f4, type: 3}
+  - letter: W
+    image: {fileID: -243099114694839562, guid: b1bdc6e8e10671a4784f3e4d13d442c4, type: 3}
+  - letter: X
+    image: {fileID: 3959922740387019359, guid: 16f35c384422087488d8fa5b027199ac, type: 3}
+  - letter: Y
+    image: {fileID: -7057060395142453220, guid: 4c320cc19c7e922438aaeaba39ab03d2, type: 3}
+  - letter: Z
+    image: {fileID: 4969131362173423726, guid: b00ab6d070a76f847a06c470c13dd0c8, type: 3}
+  AlphabetWrong:
+  - letter: A
+    image: {fileID: -8680797543115379092, guid: d20fed766971d2346b2cbfc03a3db3bd, type: 3}
+  - letter: B
+    image: {fileID: 7425438597007568885, guid: 9110266fd1d9e7e4eb1399573c760051, type: 3}
+  - letter: C
+    image: {fileID: -606033477821260893, guid: a774ce880f9dfa140878a66d3c50d09a, type: 3}
+  - letter: D
+    image: {fileID: -962488092458481032, guid: f48b83106c4b3a045818dfdae12e4c61, type: 3}
+  - letter: E
+    image: {fileID: -2224474878120320963, guid: f7161b15d6e5fd545804bb6b703bc9af, type: 3}
+  - letter: F
+    image: {fileID: -3687348052613884379, guid: 517b1931b0c145a48858612ea58ec0ce, type: 3}
+  - letter: G
+    image: {fileID: 9202060142997513903, guid: e541bb0d707bb1a419f7115f2b8c1671, type: 3}
+  - letter: H
+    image: {fileID: 2825150710382137115, guid: 62c854cc4ea4264439e6173aace326dd, type: 3}
+  - letter: I
+    image: {fileID: -5465646382484160345, guid: 63c9a8ec69d64414aaa95fbf3a8c471b, type: 3}
+  - letter: J
+    image: {fileID: -581286770295223724, guid: 3431fb66557a0114aaee5c68835d4389, type: 3}
+  - letter: K
+    image: {fileID: 1646720447909147354, guid: 6765165608aab7f4da96f3c8f32369e5, type: 3}
+  - letter: L
+    image: {fileID: 3685002520340290964, guid: 5f23edaecc55e6742a59b132fc2024fb, type: 3}
+  - letter: M
+    image: {fileID: 2811246782448359015, guid: 6b79b02cb86a5a8489e14230c8fd15da, type: 3}
+  - letter: N
+    image: {fileID: 6059799596907309901, guid: 5a4379201aaa0e645ad989fccf38999b, type: 3}
+  - letter: O
+    image: {fileID: -1937887712669590171, guid: 0c4421be1233b4944aa0afdc8d361644, type: 3}
+  - letter: P
+    image: {fileID: 450080780327903475, guid: bab41396204988c428b9b35f072922f2, type: 3}
+  - letter: Q
+    image: {fileID: -3859272008004827343, guid: c22fe8d901825ef45a1fb718aa335be9, type: 3}
+  - letter: R
+    image: {fileID: 5936356172364887011, guid: 2b72bd6df7e0e134c94eb5b9732e53bf, type: 3}
+  - letter: S
+    image: {fileID: -1182827721247122346, guid: 351065f76647e5543895ee50cf8b9fdb, type: 3}
+  - letter: T
+    image: {fileID: -1785357414251982577, guid: 10d186cb22af2bb4b84e9fc99072dfe3, type: 3}
+  - letter: U
+    image: {fileID: 128889091407729587, guid: fc4025386381f2c4b82d19e2756d615b, type: 3}
+  - letter: V
+    image: {fileID: 5871036504220654801, guid: 55cd56e61c47a1b4dbf79fd29f74a128, type: 3}
+  - letter: W
+    image: {fileID: -243099114694839562, guid: 29a9a1993a0bd6d419cd145e95b76b73, type: 3}
+  - letter: X
+    image: {fileID: 3959922740387019359, guid: af45cc6896858664b8c2959d327a957f, type: 3}
+  - letter: Y
+    image: {fileID: -7057060395142453220, guid: 875aa0a8be60c9049b16c44918d88acb, type: 3}
+  - letter: Z
+    image: {fileID: 4969131362173423726, guid: f703f1b4255faf540a35c43820acfd8f, type: 3}
