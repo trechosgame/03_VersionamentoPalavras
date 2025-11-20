@@ -4,7 +4,7 @@
  - uma das suas 4 ReorderableLists (plainList, normalList, highlightedList ou wrongList) ainda estava null quando o OnInspectorGUI() rodava.
  - Isso aconteceu porque no OnEnable() eu estava chamando o CreateList() sem passar por referência (ou com a assinatura errada),
  - então o valor que eu criava dentro do método não voltava para o campo da classe.
- - <img src="2025-11-20.png" width="500px">
+ - <img src="Palavras_2025_11_20.png" width="500px">
 
 
 # CÓDIGO FONTE:
